@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar ul{
+
+        list-style-type: none;
+        margin: 0px;
+        padding: 15px;
+        overflow: hidden;
+        background-color: rgb(107, 194, 213);
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
+      li {
+        float:inline-start;
+       
+      }
+      
+      li a {
+        display: block;
+        color: rgb(199, 216, 216);
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        margin-left: 60px;
+        padding: 10px 12px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+      }
+       a:hover {
+        color: #011f27;
+      }
+      .btn {
+        background-color: #022b2c;;
+        border: none;
+        color: white;
+        border-radius: 5px;
+        padding: 10px 12px;
+        text-align: center;
+        font-size: 16px;
+        margin: 2px 2px;
+        opacity: 1;
+        transition: 0.3s;
+      }
+      .btn:hover {
+        opacity: 0.6
+    }
+    .slider{
+        margin-top: 70px;
+        background-image: url("./colorful-wallpaper-background-multicolored-generative-ai_91128-2257.avif");
+        height: 500px;
+        width: auto;
+    }
+    .slider p{
+        font-size: 60px;
+        color: aliceblue;
+        text-align: center;
+        padding-top: 200px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      
+        
+    }
+    input[type=text] {
+        color:white;
+        width: 120px;
+        box-sizing: border-box;
+        border: 2px solid #555252;
+        border-radius: 4px;
+        font-size: 16px;
+        background-color:transparent;
+        background-position: 10px 10px; 
+        background-repeat: no-repeat;
+        padding: 12px 20px 12px 40px;
+        transition: 0.4s ease-in-out;
+        margin-left: 540px;
+      }
+      
+      input[type=text]:focus {
+        width: 30%;
+      }
